@@ -1,0 +1,28 @@
+aura_env.zaralek_cavern = {--2133
+    {name = "World Boss - The Zaqali Elders", quests = {}},
+    {name = "Alcanon", quests = {75285}, coords = "56.9 73.1"},
+    {name = "Aquifon", quests = {75271}, coords = "48.3 75.0"},
+    {name = "Brullo the Strong", quests = {75326}, coords = "41.4 86.1"},
+    {name = "Colossian", quests = {75476}, coords = "48.3 23.8"},
+    {name = "Dinn", quests = {75353}, coords = "28.5 51.1"},
+    {name = "Emberdusk", quests = {75364}, coords = "31.7 50.5"},
+    {name = "Flowfy", quests = {75357}, coords = "35.8 43.8"},
+    {name = "General Zskorro", quests = {75296}, coords = "42.6 18.8"},
+    {name = "Goopal", quests = {75274}, coords = "68.8 45.8"},
+    {name = "Hadexia", quests = {}},
+    {name = "Invoq", quests = {75336}, coords = "45.6 33.3"},
+    {name = "Karokta", quests = {75333}, coords = "42.2 65.1"},--75334?
+    {name = "Kapraku", quests = {75269}, coords = "59.5 39.4"},
+    {name = "Klakatak", quests = {75322}, coords = "54.1 41.7"},
+    {name = "Kob'rok", quests = {75267}, coords = "64.7 55.4"},
+    {name = "Lavermix", quests = {}},
+    {name = "Magtembo", quests = {75339}, coords = "40.7 38.2"},--75340?
+    {name = "Professor Gastrinax", quests = {75292}, coords = "52.8 18.8"},
+    {name = "Skornak", quests = {75349}, coords = "36.4 52.7"},
+    {name = "Shadowforge Mole Machine", quests = {}},
+    {name = "Spinmarrow", quests = {75276}, coords = "54.77 65.89"},
+    {name = "Subterrax", quests = {75360}, coords = "54.7 65.8"},
+    {name = "Underlight Queen", quests = {75298}, coords = "57.7 69.1"},
+    {name = "Viridian King", quests = {75366}, coords = "38.9 71.5"},
+    {name = "Emberdusk", quests = {75361}},
+}
