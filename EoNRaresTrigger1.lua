@@ -7,7 +7,7 @@ function(states, event, core_event, ...)
         local in_zone = not show_only_current_zone or C_Map.GetBestMapForUnit("player") == zone_id
         
         if in_zone and aura_env.config["show_" .. zone_id] then
-            for i, entry in pairs(entries) do
+            for _, entry in pairs(entries) do
                 entry.zone_id = zone_id
             end
 
