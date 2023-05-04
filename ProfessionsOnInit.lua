@@ -26,6 +26,7 @@ aura_env.alchemy = {
     {name = "Furry Gloop", quests = {70278}, coords = "Thaldraszus 55.2 30.5"},
     {name = "Contraband Concoction", quests = {70301}, coords = "Thaldraszus 59.5 38.4"},
 
+    {name = "Nutrient Diluted Protofluid", quests = {75646}, coords = "Zaralek Cavern 52.60 18.37"},
     {name = "Marrow-Ripened Slime", quests = {75649}, coords = "Zaralek Cavern 62.1 41.1"},
     {name = "Suspicious Mold", quests = {75651}, coords = "Zaralek Cavern 40.48 59.22"},
 }
@@ -34,7 +35,7 @@ aura_env.blacksmithing = {
     -- weekly
     {name = "Treatise", quests = {74109}},
     {name = "Profession Trainer Quest", quests = {70233, 70235, 70234, 70211}, coords = "Valdrakken 36.97 47.10"},
-    -- {name = "Consortium Trade Quest", quests = {66517, 66897, 66941}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66517, 66897, 66941, 75569}, coords = "Valdrakken 36.84 62.95"},
     -- {name = "Work Orders Quest", quests = {70589}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
@@ -45,13 +46,17 @@ aura_env.blacksmithing = {
 
     -- one-time
     {name = "Profession Master", quests = {70250}, coords = "The Waking Shores 43.30 66.65"},
+    
+    {name = "Well-Worn Kiln", quests = {76078}, coords = "Zaralek Cavern 57.15 54.65"},
+    {name = "Brimstone Rescue Ring", quests = {76079}, coords = "Zaralek Cavern 48.32 22.00"},
+    {name = "Zaqali Elder Spear", quests = {76080}, coords = "Zaralek Cavern 27.51 42.89"},
 }
 
 aura_env.enchanting = {
     -- weekly
     {name = "Treatise", quests = {74110}},
     {name = "Profession Trainer Quest", quests = {72172, 72175, 72173, 72155}, coords = "Valdrakken 31.05 61.38"},
-    -- {name = "Consortium Trade Quest", quests = {66884, 72423, 66935, 66900}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66884, 72423, 66935, 66900, 75865}, coords = "Valdrakken 36.84 62.95"},
 
     -- items
     {name = "Prismatic Focusing Shard", quests = {66377}, info = "Expedition Scout's Pack or Disturbed Dirt"},
@@ -69,6 +74,10 @@ aura_env.enchanting = {
     {name = "Faintly Enchanted Remains", quests = {70290}, coords = "The Azure Span:Dragon Isles 45.1 61.2"},
     {name = "Enriched Earthen Shard", quests = {70298}, coords = "The Azure Span:Dragon Isles 21.56, 45.54"},
     {name = "Fractured Titanic Sphere", quests = {70342}, coords = "Thaldraszus 59.9 70.4"},
+    
+    {name = "Lava-Drenched Shadow Crystal", quests = {75508}, coords = "Zaralek Cavern 48.23 17.06"},
+    {name = "Shimmering Aqueous Orb", quests = {75509}, coords = "Zaralek Cavern 62.38 53.79"},
+    {name = "Resonating Arcane Crystal", quests = {75510}, coords = "Zaralek Cavern 36.63 69.45"},
 }
 
 aura_env.engineering = {
@@ -91,10 +100,14 @@ aura_env.engineering = {
     {name = "Boomthyr Rocket", quests = {70270}, coords = "The Waking Shores 56.0 44.9"},
     {name = "Intact Coil Capacitor", quests = {70275}, coords = "The Waking Shores 49.09 77.54"},
 
-    {name = "Handful of Khaz'gorite Bolts", quests = {75651}, coords = "Zaralek Cavern 57.69 73.88"},
-    {name = "Misplaced Aberrus Outflow Blueprints", quests = {75180}, coords = "Zaralek Cavern 48.53 48.53"},
+    {name = "Handful of Khaz'gorite Bolts", quests = {75430}, coords = "Zaralek Cavern 57.69 73.88"},
     {name = "Discarded Dracothyst Drill", quests = {75431}, coords = "Zaralek Cavern 49.44 79.00"},
+    {name = "Misplaced Aberrus Outflow Blueprints", quests = {75180}, coords = "Zaralek Cavern 48.53 48.53"},
     {name = "Haphazardly Discarded Bomb", quests = {75183}, coords = "Zaralek Cavern 48.19 27.94"},
+    {name = "Defective Survival Pack", quests = {75184}, coords = "Zaralek Cavern 50.51 47.93"},
+    {name = "Busted Wyrmhole Generator", quests = {75186}, coords = "Zaralek Cavern 37.82 58.83"},
+    {name = "Inconspicuous Data Miner", quests = {75188}, coords = "Zaralek Cavern 49.87 59.25"},
+    {name = "Overclocked Determination Core", quests = {75433}, coords = "Zaralek Cavern 48.10 16.59"},
 }
 
 aura_env.herbalism = {
@@ -114,7 +127,7 @@ aura_env.inscription = {
     -- weekly
     {name = "Treatise", quests = {74105}},
     {name = "Profession Trainer Quest", quests = {70558, 70559, 70561, 70560}, coords = "Valdrakken 38.83 73.33"},
-    -- {name = "Consortium Trade Quest", quests = {66943, 66944, 66945, 72438}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66943, 66944, 66945, 72438, 75573}, coords = "Valdrakken 36.84 62.95"},
     -- {name = "Work Orders Quest", quests = {70592}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
@@ -125,13 +138,17 @@ aura_env.inscription = {
 
     -- one-time
     {name = "Profession Master", quests = {70254}, coords = "The Azure Span:Dragon Isles 40.15 64.34"},
+    
+    {name = "Intricate Zaqali Runes", quests = {76117}, coords = "Zaralek Cavern 36.73 46.33"},
+    {name = "Hissing Rune Draft", quests = {76120}, coords = "Zaralek Cavern 53.02 74.26"},
+    {name = "Ancient Research", quests = {76121}, coords = "Zaralek Cavern 54.53 20.19"},
 }
 
 aura_env.jewelcrafting = {
     -- weekly
     {name = "Treatise", quests = {74112}},
     {name = "Profession Trainer Quest", quests = {70563, 70565, 70564, 70562}, coords = "Valdrakken 40.81 61.12"},
-    -- {name = "Consortium Trade Quest", quests = {66516, 66950, 72428, 66949}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66516, 66950, 72428, 66949, 75362}, coords = "Valdrakken 36.84 62.95"},
     -- {name = "Work Orders Quest", quests = {70593}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
@@ -150,13 +167,17 @@ aura_env.jewelcrafting = {
     {name = "Harmonic Crystal Harmonizer", quests = {70271}, coords = "The Azure Span:Dragon Isles 44.6 61.2"},
     {name = "Alexstraszite Cluster", quests = {70285}, coords = "Thaldraszus 59.8 65.2"},
     {name = "Painter's Pretty Jewel", quests = {70261}, coords = "Thaldraszus 56.91 43.72"},
+
+    {name = "Snubbed Snail Shells", quests = {75652}, coords = "Zaralek Cavern 40.39 80.65"},
+    {name = "Gently Jostled Jewels", quests = {75653}, coords = "Zaralek Cavern 34.50 45.42"},
+    {name = "Broken Barter Boulder", quests = {75654}, coords = "Zaralek Cavern 54.39 32.45"},
 }
 
 aura_env.leatherworking = {
     -- weekly
     {name = "Treatise", quests = {74113}},
     {name = "Profession Trainer Quest", quests = {70571, 70567, 70569, 70568}, coords = "Valdrakken 28.56 61.33"},
-    -- {name = "Consortium Trade Quest", quests = {66364, 66363, 72407, 66951, 66364}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66364, 66363, 72407, 66951, 66364, 75354}, coords = "Valdrakken 36.84 62.95"},
     -- {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
@@ -174,6 +195,10 @@ aura_env.leatherworking = {
     {name = "Decay-Infused Tanning Oil", quests = {70266}, coords = "The Azure Span:Dragon Isles 16.7 38.8"},
     {name = "Treated Hides", quests = {70286}, coords = "The Azure Span:Dragon Isles 57.5 41.3"},
     {name = "Decayed Scales", quests = {70294}, coords = "Thaldraszus 56.8 30.5"},
+    
+    {name = "Flame-Infused Scale Oil", quests = {75495}, coords = "Zaralek Cavern 41.17 48.81"},
+    {name = "Lava-Forged Leatherworker's \"Knife\"", quests = {75496}, coords = "Zaralek Cavern 45.23 21.08"},
+    {name = "Sulfur-Soaked Skins", quests = {75502}, coords = "Zaralek Cavern 49.53 54.74"},
 }
 
 aura_env.mining = {
@@ -207,7 +232,7 @@ aura_env.tailoring = {
     -- weekly
     {name = "Treatise", quests = {74115}},
     {name = "Profession Trainer Quest", quests = {70582, 70586, 70572, 70587}, coords = "Valdrakken 31.91 67.18"},
-    -- {name = "Consortium Trade Quest", quests = {72410, 66952, 66953}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {72410, 66952, 66953, 75407}, coords = "Valdrakken 36.84 62.95"},
     -- {name = "Work Orders Quest", quests = {70595}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
@@ -215,4 +240,9 @@ aura_env.tailoring = {
     {name = "Primalweave Spindle", quests = {66387}, info = "Expedition Scout's Pack or Disturbed Dirt"},
     {name = "Ohn'arhan Weave", quests = {70524}, info = "Nokhud enemies"},
     {name = "Stupidly Effective Stitchery", quests = {70525}, info = "Gnoll enemies"},
+
+    -- one-time
+    {name = "Abandoned Reserve Chute", quests = {76102}, coords = "Zaralek Cavern 47.21 48.54"},
+    {name = "Used Medical Wrap Kit", quests = {76110}, coords = "Zaralek Cavern 59.16 73.18"},
+    {name = "Exquisitely Embroidered Banner", quests = {76116}, coords = "Zaralek Cavern 44.54 15.67"},
 }
