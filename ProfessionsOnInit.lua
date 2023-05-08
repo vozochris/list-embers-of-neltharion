@@ -6,7 +6,7 @@ aura_env.alchemy = {
     -- weekly
     {name = "Treatise", quests = {74108}},
     {name = "Profession Trainer Quest", quests = {70530, 70531, 70533, 70532}, coords = "Valdrakken 36.41 71.69"},
-    {name = "Consortium Trade Quest", quests = {66940, 72427, 66937, 66938, 75363}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66940, 72427, 66937, 66938, 75363, 75371}, coords = "Valdrakken 36.84 62.95"},
 
     -- items
     {name = "Experimental Substance", quests = {66373}, info = "Expedition Scout's Pack or Disturbed Dirt"},
