@@ -1,7 +1,7 @@
 --TSU
 --VOZ_FETCH_LINES
 function(states, event, core_event, ...)
-    local order = 11
+    local order = 10
     local function add_zone(entries, zone_id, name)
         local show_only_current_zone = aura_env.config["show_only_current_zone"]
         local in_zone = not show_only_current_zone or C_Map.GetBestMapForUnit("player") == zone_id

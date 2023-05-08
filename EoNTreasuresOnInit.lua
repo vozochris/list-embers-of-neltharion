@@ -1,6 +1,6 @@
 aura_env.zaralek_cavern_treasures = {--2133
-    {name = "Ritual Offering (East)", quests = {73548}},
     {name = "Ritual Offering (North)", quests = {73551}},
+    {name = "Ritual Offering (East)", quests = {73548}},
     {name = "Ritual Offering (South)", quests = {73552}},
     {name = "Ritual Offering (West)", quests = {73553}},
     {name = "Charred Egg", quests = {73706}, coords = "30.0 42.0"},
