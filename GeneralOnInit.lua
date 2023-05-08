@@ -1,5 +1,4 @@
 aura_env.general = {
-    {id = "a_worthy_ally_loamm_niffen", name = "A Worthy Ally: Loamm Niffen", quests = {75665}},
     {id = "aiding_the_accord", name = "Aiding the Accord", quests = {70750}},
     {id = "trial_of_the_elements", name = "Trial of the Elements", quests = {71995}},
     {id = "trial_of_the_flood", name = "Trial of the Flood", quests = {71033}},

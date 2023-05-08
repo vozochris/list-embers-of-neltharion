@@ -1,11 +1,12 @@
--- aura_env.zaralek_cavern = {--2133
---     {name = "World Boss - The Zaqali Elders", quests = {}, coords = "?"},
+aura_env.zaralek_cavern = {--2133
+    {id = "a_worthy_ally_loamm_niffen", name = "A Worthy Ally: Loamm Niffen", quests = {75665}},
+    -- {name = "World Boss - The Zaqali Elders", quests = {}, coords = "?"},
 
---     {name = "Hadexia", quests = {75314}, coords = "?"},
---     {name = "Kronkapace", quests = {75341}, coords = "?"},--!75342!
---     {name = "Lavermix", quests = {75338}, coords = "?"},
---     {name = "Shadowforge Mole Machine", quests = {75576}, coords = "?"},
--- }
+    -- {name = "Hadexia", quests = {75314}, coords = "?"},
+    -- {name = "Kronkapace", quests = {75341}, coords = "?"},--!75342!
+    -- {name = "Lavermix", quests = {75338}, coords = "?"},
+    -- {name = "Shadowforge Mole Machine", quests = {75576}, coords = "?"},
+}
 
 aura_env.zaralek_cavern_caldera = {
     {name = "Dinn", quests = {75352}, coords = "28.5 51.1"},--75353?

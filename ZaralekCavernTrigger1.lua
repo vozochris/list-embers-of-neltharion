@@ -19,7 +19,7 @@ function(states, event, core_event, ...)
         inactive_subzone = subzone_rotation[rotation_index]
     end
 
-    local function add_zone(entries, zone_id, name)
+    local function add_zone(entries, zone_id, name, skip_prepend)
         local show_only_current_zone = aura_env.config["show_only_current_zone"]
         local in_zone = not show_only_current_zone or C_Map.GetBestMapForUnit("player") == zone_id
         
@@ -29,10 +29,12 @@ function(states, event, core_event, ...)
                 aura_env.config["hide_rares"] and not entry.is_event then
                     entries[i] = nil
                 else
-                    if entry.is_event then
-                        entry.prepend = "[E] "
-                    else
-                        entry.prepend = "[R] "
+                    if not skip_prepend then
+                        if entry.is_event then
+                            entry.prepend = "[E] "
+                        else
+                            entry.prepend = "[R] "
+                        end
                     end
 
                     entry.zone_id = zone_id
@@ -44,7 +46,7 @@ function(states, event, core_event, ...)
         end
     end
 
-    -- add_zone(aura_env.zaralek_cavern, 2133, "Zaralek Cavern")
+    add_zone(aura_env.zaralek_cavern, 2133, "Zaralek Cavern", true)
 
     if not aura_env.config["hide_caldera"] then
         add_zone(aura_env.zaralek_cavern_caldera, 2133, "Zaralek Cavern: Caldera")
