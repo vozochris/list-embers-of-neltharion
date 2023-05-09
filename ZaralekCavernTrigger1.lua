@@ -13,10 +13,21 @@ function(states, event, core_event, ...)
             [3] = "aberrus",
         }
 
-        local start_timestamp = GetServerTime() - 1683345600
-        local days = start_timestamp / 86400
-        local rotation_index = math.floor(days % 4)
-        inactive_subzone = subzone_rotation[rotation_index]
+        local region_timers = {
+            [1] = 1683385200, -- NA
+            [2] = nil, -- KR
+            [3] = 1683345600, -- EU
+            [4] = nil, -- TW
+            [5] = nil  -- CN
+        }
+
+        local region_start_timestamp = region_timers[GetCurrentRegion()]
+        if region_start_timestamp then
+            local start_timestamp = GetServerTime() - region_start_timestamp
+            local days = start_timestamp / 86400
+            local rotation_index = math.floor(days % 4)
+            inactive_subzone = subzone_rotation[rotation_index]
+        end
     end
 
     local function add_zone(entries, zone_id, name, skip_prepend)
