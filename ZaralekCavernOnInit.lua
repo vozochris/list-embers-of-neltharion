@@ -1,6 +1,6 @@
 aura_env.zaralek_cavern = {--2133
     {id = "a_worthy_ally_loamm_niffen", name = "A Worthy Ally: Loamm Niffen", quests = {75665}},
-    -- {name = "World Boss - The Zaqali Elders", quests = {}, coords = "?"},
+    {id = "world_boss", name = "World Boss - The Zaqali Elders", quests = {74892}, coords = "28.2 43.8"},
 
     -- {name = "Hadexia", quests = {75314}, coords = "?"},
     -- {name = "Kronkapace", quests = {75341}, coords = "?"},--!75342!

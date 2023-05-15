@@ -37,7 +37,8 @@ function(states, event, core_event, ...)
         if in_zone then
             for i, entry in pairs(entries) do
                 if aura_env.config["hide_events"] and entry.is_event or
-                aura_env.config["hide_rares"] and not entry.is_event then
+                aura_env.config["hide_rares"] and not entry.is_event and not skip_prepend or
+                entry.id and aura_env.config["hide_" .. entry.id] then
                     entries[i] = nil
                 else
                     if not skip_prepend then
