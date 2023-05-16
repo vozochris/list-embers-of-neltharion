@@ -35,8 +35,8 @@ aura_env.blacksmithing = {
     -- weekly
     {name = "Treatise", quests = {74109}},
     {name = "Profession Trainer Quest", quests = {70233, 70235, 70234, 70211}, coords = "Valdrakken 36.97 47.10"},
-    {name = "Consortium Trade Quest", quests = {66517, 66897, 66941, 75569}, coords = "Valdrakken 36.84 62.95"},
-    -- {name = "Work Orders Quest", quests = {70589}, coords = "Valdrakken 35.37 58.79"},
+    {name = "Consortium Trade Quest", quests = {66517, 66897, 66941, 75569, 75148}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Work Orders Quest", quests = {70589}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
     {name = "Valdrakken Weapon Chain", quests = {66381}, info = "Expedition Scout's Pack or Disturbed Dirt"},
@@ -56,7 +56,7 @@ aura_env.enchanting = {
     -- weekly
     {name = "Treatise", quests = {74110}},
     {name = "Profession Trainer Quest", quests = {72172, 72175, 72173, 72155}, coords = "Valdrakken 31.05 61.38"},
-    {name = "Consortium Trade Quest", quests = {66884, 72423, 66935, 66900, 75865}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66884, 72423, 66935, 66900, 75865, 75150}, coords = "Valdrakken 36.84 62.95"},
 
     -- items
     {name = "Prismatic Focusing Shard", quests = {66377}, info = "Expedition Scout's Pack or Disturbed Dirt"},
@@ -84,8 +84,8 @@ aura_env.engineering = {
     -- weekly
     {name = "Treatise", quests = {74111}},
     {name = "Profession Trainer Quest", quests = {70539, 70540, 70557, 70545}, coords = "Valdrakken 42.25 48.62"},
-    {name = "Consortium Trade Quest", quests = {66891, 66890, 66942, 72396, 75575}, coords = "Valdrakken 36.84 62.95"},
-    -- {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
+    {name = "Consortium Trade Quest", quests = {66891, 66890, 66942, 72396, 75575, 75608}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Work Orders Quest", quests = {70591}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
     {name = "Eroded Titan Gizmo", quests = {66379}, info = "Expedition Scout's Pack or Disturbed Dirt"},
@@ -127,8 +127,8 @@ aura_env.inscription = {
     -- weekly
     {name = "Treatise", quests = {74105}},
     {name = "Profession Trainer Quest", quests = {70558, 70559, 70561, 70560}, coords = "Valdrakken 38.83 73.33"},
-    {name = "Consortium Trade Quest", quests = {66943, 66944, 66945, 72438, 75573}, coords = "Valdrakken 36.84 62.95"},
-    -- {name = "Work Orders Quest", quests = {70592}, coords = "Valdrakken 35.37 58.79"},
+    {name = "Consortium Trade Quest", quests = {66943, 66944, 66945, 72438, 75573, 75149}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Work Orders Quest", quests = {70592}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
     {name = "Phoenix Feather Quill", quests = {66375}, info = "Expedition Scout's Pack or Disturbed Dirt"},
@@ -148,8 +148,8 @@ aura_env.jewelcrafting = {
     -- weekly
     {name = "Treatise", quests = {74112}},
     {name = "Profession Trainer Quest", quests = {70563, 70565, 70564, 70562}, coords = "Valdrakken 40.81 61.12"},
-    {name = "Consortium Trade Quest", quests = {66516, 66950, 72428, 66949, 75362}, coords = "Valdrakken 36.84 62.95"},
-    -- {name = "Work Orders Quest", quests = {70593}, coords = "Valdrakken 35.37 58.79"},
+    {name = "Consortium Trade Quest", quests = {66516, 66950, 72428, 66949, 75362, 75602}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Work Orders Quest", quests = {70593}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
     {name = "Ancient Gem Fragments", quests = {66388}, info = "Expedition Scout's Pack or Disturbed Dirt"},
@@ -177,8 +177,8 @@ aura_env.leatherworking = {
     -- weekly
     {name = "Treatise", quests = {74113}},
     {name = "Profession Trainer Quest", quests = {70571, 70567, 70569, 70568}, coords = "Valdrakken 28.56 61.33"},
-    {name = "Consortium Trade Quest", quests = {66364, 66363, 72407, 66951, 66364, 75354}, coords = "Valdrakken 36.84 62.95"},
-    -- {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
+    {name = "Consortium Trade Quest", quests = {66364, 66363, 72407, 66951, 66364, 75354, 75368}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Work Orders Quest", quests = {70594}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
     {name = "Molted Dragon Scales", quests = {66384}, info = "Expedition Scout's Pack or Disturbed Dirt"},
@@ -232,8 +232,8 @@ aura_env.tailoring = {
     -- weekly
     {name = "Treatise", quests = {74115}},
     {name = "Profession Trainer Quest", quests = {70582, 70586, 70572, 70587}, coords = "Valdrakken 31.91 67.18"},
-    {name = "Consortium Trade Quest", quests = {72410, 66952, 66953, 75407}, coords = "Valdrakken 36.84 62.95"},
-    -- {name = "Work Orders Quest", quests = {70595}, coords = "Valdrakken 35.37 58.79"},
+    {name = "Consortium Trade Quest", quests = {72410, 66952, 66953, 75407, 75600}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Work Orders Quest", quests = {70595}, coords = "Valdrakken 35.37 58.79"},
 
     -- items
     {name = "Umbral Bone Needle", quests = {66386}, info = "Expedition Scout's Pack or Disturbed Dirt"},
