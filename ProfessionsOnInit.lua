@@ -56,7 +56,7 @@ aura_env.enchanting = {
     -- weekly
     {name = "Treatise", quests = {74110}},
     {name = "Profession Trainer Quest", quests = {72172, 72175, 72173, 72155}, coords = "Valdrakken 31.05 61.38"},
-    {name = "Consortium Trade Quest", quests = {66884, 72423, 66935, 66900, 75865, 75150}, coords = "Valdrakken 36.84 62.95"},
+    {name = "Consortium Trade Quest", quests = {66884, 72423, 66935, 66900, 75865, 75150, 72155}, coords = "Valdrakken 36.84 62.95"},
 
     -- items
     {name = "Prismatic Focusing Shard", quests = {66377}, info = "Expedition Scout's Pack or Disturbed Dirt"},
