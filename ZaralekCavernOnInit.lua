@@ -1,6 +1,7 @@
 aura_env.zaralek_cavern = {--2133
     {id = "a_worthy_ally_loamm_niffen", name = "A Worthy Ally: Loamm Niffen", quests = {75665}},
     {id = "world_boss", name = "World Boss - The Zaqali Elders", quests = {74892}, coords = "28.2 43.8"},
+    {id = "researchers_under_fire", name = "Researchers Under Fire", quests = {75630}, is_event = true},
 
     -- {name = "Hadexia", quests = {75314}, coords = "?"},
     -- {name = "Kronkapace", quests = {75341}, coords = "?"},--!75342!
@@ -66,3 +67,10 @@ aura_env.zaralek_cavern_aberrus = {
     {name = "Hungry Hungry Hydra", quests = {75478}, is_event = true, coords = "46.8 23.9"},
     {name = "Strike the Colors", quests = {75494}, is_event = true, coords = "43.6 25.0"},
 }
+
+-- aura_env.researchers_under_fire = {
+--     {name = "Rare 1", quests = {75943}},
+--     {name = "Rare 2", quests = {75944}},
+--     {name = "Rare 3", quests = {75945}},
+--     {name = "Rare 4", quests = {75946}},
+-- }
