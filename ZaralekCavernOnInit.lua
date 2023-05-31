@@ -1,7 +1,8 @@
 aura_env.zaralek_cavern = {--2133
     {id = "a_worthy_ally_loamm_niffen", name = "A Worthy Ally: Loamm Niffen", quests = {75665}},
     {id = "world_boss", name = "World Boss - The Zaqali Elders", quests = {74892}, coords = "28.2 43.8"},
-    {id = "researchers_under_fire", name = "Researchers Under Fire", quests = {75630}, is_event = true},
+    {id = "researchers_under_fire", name = "Researchers Under Fire", quests = {75630}},
+    {id = "snail", name = "Snail Daily", quests = {74514, 74515, 74516, 74517, 74518, 74519, 74520}},
 
     -- {name = "Hadexia", quests = {75314}, coords = "?"},
     -- {name = "Kronkapace", quests = {75341}, coords = "?"},--!75342!
