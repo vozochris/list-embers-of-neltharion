@@ -6,4 +6,5 @@ aura_env.general = {
     {id = "grand_hunt", name = "Grand Hunt", quests = {70906}},
     {id = "community_feast", name = "Community Feast", quests = {70893}},
     {id = "world_boss", name = "World Boss", quests = {72056, 72055, 72054, 72057}},
+    {id = "time_rift", name = "Time Rift", quests = {77836}},
 }
