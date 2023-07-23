@@ -32,7 +32,9 @@ function(states, event, core_event, ...)
         add_lines(entries, name)
     end
 
-    add_lines(aura_env.forbidden_reach, "Forbidden Reach")
+    if aura_env.config["show_rares"] then
+        add_lines(aura_env.forbidden_reach, "Forbidden Reach")
+    end
 
     if aura_env.config["show_profession_rares"] then
         add_profession_rares(aura_env.forbidden_reach_profession_rares, "Forbidden Reach Profession Rares")
